@@ -10,6 +10,4 @@ cevap.raise_for_status()
 sorular = cevap.json()
 
 for soru in sorular["results"]:
-    question_data.append(soru)    
-print(len(question_data))
-
+    question_data.append(soru)
